@@ -1,0 +1,244 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2718945868,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.beforeScenario()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Go to Loginpage",
+        "description": "",
+        "id": "test-execution-1;go-to-loginpage",
+        "after": [
+          {
+            "result": {
+              "duration": 121382728,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3937558756,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user navigate to \"register_url\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "register_url",
+                  "offset": 22
+                }
+              ],
+              "location": "BaseSteps.userNavigateTo(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 49372317,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "the user verify element \"register_user_name\" exist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "register_user_name",
+                  "offset": 25
+                }
+              ],
+              "location": "BaseSteps.userVerifyElementExist(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@TEST_PG-1124"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1069792856,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.beforeScenario()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Go to homepage",
+        "description": "",
+        "id": "test-execution-1;go-to-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 187485899,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8096645768,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user navigate to \"homepage_url\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "homepage_url",
+                  "offset": 22
+                }
+              ],
+              "location": "BaseSteps.userNavigateTo(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 38025657,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user verify element \"homepage_login_link\" exist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "homepage_login_link",
+                  "offset": 25
+                }
+              ],
+              "location": "BaseSteps.userVerifyElementExist(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@TEST_PG-1123"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1069792856,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.beforeScenario()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Go to homepage",
+        "description": "",
+        "id": "test-execution-1;go-to-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 187485899,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8096645768,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "the user navigate to \"homepage_url\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "homepage_url",
+                  "offset": 22
+                }
+              ],
+              "location": "BaseSteps.userNavigateTo(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 38025657,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user verify element \"homepage_login_link\" exist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "homepage_login_link",
+                  "offset": 25
+                }
+              ],
+              "location": "BaseSteps.userVerifyElementExist(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@TEST_PG-1123"
+          },
+          {
+            "line": 8,
+            "name": "@TEST123"
+          }
+        ]
+      }
+    ],
+    "name": "test execution 1",
+    "description": "",
+    "id": "test-execution-1",
+    "keyword": "Feature",
+    "uri": "features/1_.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@PG-1126"
+      }
+    ]
+  }
+]

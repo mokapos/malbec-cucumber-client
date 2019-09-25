@@ -1,0 +1,110 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "line": 12,
+        "name": "[Test-02] [Android] Search Result Merchant Page Action",
+        "description": "",
+        "id": "mars---daily-automation-test;[test-02]-[android]-search-result-merchant-page-action",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [],
+        "tags": [
+          {
+            "name": "@MARS-759"
+          },
+          {
+            "name": "@TEST_MARS-762"
+          },
+          {
+            "name": "@android"
+          },
+          {
+            "name": "@automated"
+          },
+          {
+            "name": "@smoke-mars"
+          }
+        ]
+      }
+    ],
+    "name": "MARS - Daily Automation Test",
+    "description": "",
+    "id": "mars---daily-automation-test",
+    "keyword": "Feature",
+    "uri": "src/test/resources/bukalapak/features/1_MARS-763.feature",
+    "tags": [
+      {
+        "name": "@MARS-759",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "line": 11,
+        "name": "[Test - 01] [Android] Merchant Page Action",
+        "description": "",
+        "id": "mars---daily-automation-test;[test---01]-[android]-merchant-page-action",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [],
+        "tags": [
+          {
+            "name": "@MARS-759"
+          },
+          {
+            "name": "@TEST_MARS-760"
+          },
+          {
+            "name": "@android"
+          },
+          {
+            "name": "@automated"
+          },
+          {
+            "name": "@smoke-mars"
+          }
+        ]
+      }
+    ],
+    "name": "MARS - Daily Automation Test",
+    "description": "",
+    "id": "mars---daily-automation-test",
+    "keyword": "Feature",
+    "uri": "src/test/resources/bukalapak/features/2_MARS-761.feature",
+    "tags": [
+      {
+        "name": "@MARS-759",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
