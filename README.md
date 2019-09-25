@@ -10,7 +10,9 @@ A client service to process cucumber json
 2. run jar
 
 For merge. It's suitable for rerun. The cucumber json from first run as parent and from rerun as rerun.json
- ```java -jar malbec-[version].jar merge [path-cucumber-parent.json] [pat-cucumber-rerun.json]```
+ ```
+ java -jar malbec-[version].jar merge [path-cucumber-parent.json] [pat-cucumber-rerun.json]
+ ```
  
 For join. It's suitable for distributed test. the parameter is direcotry path that contains multiple json file
 ```
