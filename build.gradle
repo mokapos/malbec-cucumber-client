@@ -34,18 +34,14 @@ publishing {
     repositories {
         maven {
             name = "GitHubPackages"
-            url = uri("https://maven.pkg.github.com/suciista09/malbec-client-service")
+            url = uri("https://maven.pkg.github.com/suciista09/malbec-cucumber-client")
             credentials {
                 username = project.findProperty("gpr.user") ?: System.getenv("USERNAME")
                 password = project.findProperty("gpr.key") ?: System.getenv("PASSWORD")
             }
         }
     }
-    publications {
-        gpr(MavenPublication) {
-            from(components.java)
-        }
-    }
+
 }
 
 
