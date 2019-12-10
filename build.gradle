@@ -1,8 +1,9 @@
 plugins {
     id 'java'
+    id 'maven-publish'
 }
 
-group 'bl-cucumbery'
+group 'org.suciista09'
 version '2.3.3'
 
 sourceCompatibility = 1.8
@@ -26,7 +27,25 @@ jar {
         configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
     }
     baseName='malbec'
-    version='2.0.0'
+    version=project.version
+}
+
+publishing {
+    repositories {
+        maven {
+            name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/suciista09/malbec-client-service")
+            credentials {
+                username = project.findProperty("gpr.user") ?: System.getenv("USERNAME")
+                password = project.findProperty("gpr.key") ?: System.getenv("PASSWORD")
+            }
+        }
+    }
+    publications {
+        gpr(MavenPublication) {
+            from(components.java)
+        }
+    }
 }
 
 
